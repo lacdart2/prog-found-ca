@@ -72,8 +72,8 @@ restPlass = [];
 
 function booking(seats) {
     restPlass.push("seats");
-    console.log(seats);
+    
 }
-booking("seats");
+booking("economy");
 
 
