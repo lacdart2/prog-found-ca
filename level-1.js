@@ -37,24 +37,25 @@ for (var i = 15; i <= 25; i++) {
 
 var counter;
 for (var i = 15; i <= 25; i++) {
-    console.log(20);
+    if (i === 20) console.log(i);
 }
 
 // question  7
+// last comma in array shows up when saving in vscode.i deleted it here.confusing 
 
 var members = [
     { name: "mike", isLoggedIn: true, age: 33 },
-    { name: "sara", isLoggedIn: false, age: 26 },
+    { name: "sara", isLoggedIn: false, age: 26 }
 ];
 for (var i = 0; i < members.length; i++) {
     console.log(members[i].age);
-    console.log(members[i].isLoggedIns);
+    console.log(members[i].isLoggedIn);
 }
 
 // question 8
 
 function whatIDontLike(someFood) {
-    console.log("i don´t like" + " " + someFood);
+    console.log("i don´t like " + someFood);
 }
 whatIDontLike("sushi");
 
@@ -69,19 +70,10 @@ calcul(1000, 340);
 
 restPlass = [];
 
-function vacation(available) {
-    console.log(available + " " + restPlass);
+function booking(seats) {
+    restPlass.push("seats");
+    console.log(seats);
 }
-vacation(13);
-
-/*. ´´´´´ LEVEL 2   to put in seperate file level-2.js````````.*/
+booking("seats");
 
 
-// question 1
-
-var counter;
-for (var i = 15; i <= 25; i++) {
-    if (i % 2 === 0) {
-        console.log(i);
-    }
-}
