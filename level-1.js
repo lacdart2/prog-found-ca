@@ -37,7 +37,9 @@ for (var i = 15; i <= 25; i++) {
 
 var counter;
 for (var i = 15; i <= 25; i++) {
-    if (i === 20) console.log(i);
+    if (i === 20){
+    console.log(i);
+    } 
 }
 
 // question  7
