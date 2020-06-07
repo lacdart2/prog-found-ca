@@ -66,6 +66,7 @@ function calcul(budjet, cost) {
 }
 calcul(1000, 340);
 
+
 // question 10
 
 restPlass = [];
@@ -75,5 +76,4 @@ function booking(seats) {
     
 }
 booking("economy");
-
 
